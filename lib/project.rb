@@ -7,4 +7,4 @@ def initialize
 end
 
 
-end #end class 
+end #end class
