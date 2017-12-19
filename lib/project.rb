@@ -1,7 +1,7 @@
 class Projects
 
 def initialize
-@title = tile 
+@title = tile
 end
 
 
