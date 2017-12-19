@@ -1,12 +1,13 @@
 class Backer
 
-  attr_accessor :name
+  attr_reader :name, :backed_projects
 
 def initialize #takes a name on initialization
   @name = name
+  backed_projects = [] # empty array
 end
 
-backed_projects = [] # empty array 
+
 
 def back_project(Project)
   backed_projects << project # accepts a Project as an argument and stores it in a backed_projects array
