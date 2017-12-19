@@ -8,8 +8,8 @@ def initialize(title)
 end
 
 
-def add_backer(project)
-  backers << project # accepts a Project as an argument and stores it in a backed_projects array
+def add_backer(backer)
+  backers << backer # accepts a backer as an argument and stores it in a backers array
 end
 
 end #end class
