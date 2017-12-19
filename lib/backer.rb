@@ -2,7 +2,7 @@ class Backer
 
   attr_reader :name, :backed_projects
 
-def initialize #takes a name on initialization
+def initialize(name) #takes a name on initialization
   @name = name
   backed_projects = [] # empty array
 end
