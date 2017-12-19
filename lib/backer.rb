@@ -1,5 +1,8 @@
 class Backer
-def initialize(name)
+
+  attr_accessor :name 
+  
+def initialize
   @name = name
 end
 end # ends class
