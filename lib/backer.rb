@@ -1,4 +1,4 @@
-class Backers
+class Backer
 def initialize
   @name = name
 end
