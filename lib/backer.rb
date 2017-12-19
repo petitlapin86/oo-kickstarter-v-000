@@ -11,5 +11,6 @@ end
 
 def back_project(Project)
   backed_projects << project # accepts a Project as an argument and stores it in a backed_projects array
+end 
 
 end # ends class
